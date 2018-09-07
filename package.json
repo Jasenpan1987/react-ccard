@@ -1,0 +1,49 @@
+{
+  "name": "react-credit-card",
+  "version": "0.0.1",
+  "description": "Display credit cards(port of Card by @jessepollak)",
+  "main": "build/card.js",
+  "scripts": {
+    "build": "webpack -p"
+  },
+  "keywords": [
+    "react",
+    "credit",
+    "card",
+    "component"
+  ],
+  "author": "João Dias",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "8.0.1",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.8.2",
+    "extract-css-chunks-webpack-plugin": "^3.1.1",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.22.0",
+    "css-loader": "^1.0.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "payment": "^2.1.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "prop-types": "^15.6.1"
+  }
+}
